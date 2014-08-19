@@ -1,0 +1,7 @@
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.openhab.binding.empty.genericbindingprovider">
+   <implementation class="org.openhab.binding.empty.EmptyGenericBindingProvider"/>
+   <service>
+      <provide interface="org.openhab.model.item.binding.BindingConfigReader"/>
+      <provide interface="org.openhab.binding.empty.EmptyBindingProvider"/>
+   </service>
+</scr:component>
